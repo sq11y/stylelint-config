@@ -10,7 +10,7 @@ pnpm install --save-dev stylelint-config-sq11y
 
 ## Usage
 
-Set your `stylelint.config.mjs` config to:
+Set your `stylelint.config.mjs` to:
 
 ```js
 /** @type {import('stylelint').Config} */
