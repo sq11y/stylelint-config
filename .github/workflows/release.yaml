@@ -12,7 +12,7 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   version-bump:
-    name: "Look for version bump"
+    name: "Look for a version bump"
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.check.outputs.changed }}
